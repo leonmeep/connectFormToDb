@@ -10,4 +10,4 @@
     <title><?= $title ?></title>
 </head>
 
-<body>
+<body class="flex flex-col items-center flex-wrap">
