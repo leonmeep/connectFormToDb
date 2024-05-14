@@ -6,7 +6,7 @@ require 'partials/header.php';
 
 <h1 class="flex justify-center text-green-400"><?= $heading ?></h1>
 
-    <form method="post" action="/controllers/response.php">
+    <form method="post" action="/response">
 
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
