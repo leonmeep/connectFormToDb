@@ -1,11 +1,11 @@
 
 
 <footer>
-    <div class="flex justify-center  text-green-400 space-x-2">
+    <div class="flex justify-center mt-96 text-green-400 space-x-2">
         <p>© 2024 | Leon Birch Development | All rights reserved</p>
     </div>
 
-    <div class="flex justify-center space-x-2 mt-3.5">
+    <div class="flex justify-center space-x-2">
 
         <a href="https://github.com/leonmeep/connectFormToDb" target="_blank"><img src="/img/github-mark.png" alt="git hub logo link to repository"
                                                                           class="w-9 h-9 hover:animate-bounce"></a>
