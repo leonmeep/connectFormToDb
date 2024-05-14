@@ -1,6 +1,6 @@
 <?php
 
-require 'partials/header.php';
+require 'views/partials/header.php';
 
 ?>
 
@@ -19,4 +19,4 @@ require 'partials/header.php';
         <input type="submit" value="Submit">
     </form>
 
-<?php require 'partials/footer.php'; ?>
+<?php require 'views/partials/footer.php'; ?>

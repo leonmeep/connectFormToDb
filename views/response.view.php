@@ -1,13 +1,19 @@
 <?php
 
-require 'partials/header.php';
+require 'views/partials/header.php';
 
 ?>
 
-<h1 class="flex justify-center text-green-400"><?= $heading ?></h1>
+    <div class="flex justify-center">
+        <h1 class="flex text-green-400"><?= $heading ?></h1>
+    </div>
 
-    <p>Thank you for submitting your comment</p>
+    <div class="flex justify-center">
+        <p class="flex ">Your comment has been saved</p>
+    </div>
 
+    <div class="flex justify-center">
+        <a href="/" class="flex text-pink-400 hover:underline">Back to home</a>
+    </div>
 
-
-<?php require 'partials/footer.php'; ?>
+<?php require 'views/partials/footer.php'; ?>

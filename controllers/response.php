@@ -2,8 +2,8 @@
 
 
 
-$heading = 'Thank you for your comment!';
-$title = 'Thank you';
+$heading = 'Thanks!';
+$title = 'Thanks!';
 
 require 'views/response.view.php';
 
