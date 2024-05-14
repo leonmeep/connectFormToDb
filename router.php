@@ -28,3 +28,5 @@ require "controllers/{$code}.php";
 die();
 
 }
+
+routeToController($uri, $routes);
