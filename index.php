@@ -5,9 +5,9 @@ require 'Database.php';
 require 'functions.php';
 
 
+$config = require 'config.php';
 
-
-$db = new Database();
+$db = new Database($config);
 $db->query();
 
 
