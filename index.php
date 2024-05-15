@@ -7,7 +7,7 @@ require 'functions.php';
 
 $config = require 'config.php';
 
-$db = new Database($config);
+$db = new Database($config['database']);
 $db->query();
 
 
