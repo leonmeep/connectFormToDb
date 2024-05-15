@@ -22,7 +22,7 @@ require 'views/partials/header.php';
             <br>
 
             <div class="flex flex-col gap-2 mt-4 text-green-400">
-            <label for="message">Message:</label>
+            <label for="comment">Comment:</label>
                 <textarea id="comment" name="comment" class="border rounded-tl rounded-tr rounded-bl rounded-br" required="" placeholder="what do you think?"></textarea>
             </div>
 
