@@ -13,7 +13,7 @@ require 'views/partials/header.php';
 
 
 <p class="flex justify-center p-6 pr-6 pb-6 pl-6 pt-6 m-7 ml-7 mr-7 mt-7 mb-7">
-    <a href="/" class="text-blue-600 underline hover:animate-pulse hover:text-green-600">Return to Home</a>
+    <a href="/" class="text-blue-600 underline hover:animate-pulse hover:text-green-600 font-poetsen">Return to Home</a>
 </p>
 
 
