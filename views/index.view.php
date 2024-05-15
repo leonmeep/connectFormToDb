@@ -10,7 +10,7 @@ require 'views/partials/header.php';
     </div>
 
 
-    <div class="mt-10">
+    <div class="mt-8">
 
         <form method="post" action="/response">
 

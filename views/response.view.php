@@ -13,7 +13,7 @@ require 'views/partials/header.php';
     </div>
 
     <div class="flex justify-center mt-5">
-        <a href="/" class="flex text-pink-400 hover:underline">Back to home</a>
+        <a href="/" class="flex text-pink-400 hover:underline">Back to the comments form</a>
     </div>
 
 <?php require 'views/partials/footer.php'; ?>
