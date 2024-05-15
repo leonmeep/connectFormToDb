@@ -10,4 +10,4 @@ of X (twitter) but the comment is never displayed.
 
 Upon submission it will then be added to a corresponding database.
 
-To further this, I may create a dynamic topical element. Perhaps like taking a poll
+To further this, I may create a dynamic topical element. Perhaps like taking a poll, and then displaying the data.
