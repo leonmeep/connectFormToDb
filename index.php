@@ -1,8 +1,16 @@
 <?php
 
-$heading = 'Please fill out this form:';
-$title = 'Form';
+require 'router.php';
+require 'Database.php';
+require 'functions.php';
 
-require 'views/index.view.php';
+
+$config = require 'config.php';
+
+$db = new Database($config['database']);
+$db->query();
+
+
+
 
 

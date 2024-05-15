@@ -1,24 +1,36 @@
 <?php
 
-require 'partials/header.php';
+require 'views/partials/header.php';
+
 ?>
 
-<h1 class="flex justify-center text-green-400"><?= $heading ?></h1>
+    <div class="flex justify-center mt-48 text-green-400">
+        <h1><?= $heading ?></h1>
 
-    <form method="post" action="/response.php">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <br>
-        <label for="confirm_password">Confirm Password:</label>
-        <input type="password" id="confirm_password" name="confirm_password" required>
-        <br>
-        <input type="submit" value="Submit">
-    </form>
+    </div>
 
-<?php require 'partials/footer.php'; ?>
+
+    <div class="mt-8">
+
+        <form method="post" action="/response">
+
+            <div class="flex flex-row gap-2">
+            <label for="name" class="flex flex-row gap-2 text-green-400">Name:</label>
+            <input type="text" id="name" name="name" class="border rounded-tl rounded-tr rounded-bl rounded-br" required placeholder="......">
+            </div>
+
+            <br>
+
+            <div class="flex flex-col gap-2 mt-4">
+            <label for="comment" class="text-green-400">Comment:</label>
+                <textarea id="comment" name="comment" class="border rounded-tl rounded-tr rounded-bl rounded-br" required="" placeholder="what do you think?"></textarea>
+            </div>
+
+            <br>
+            <input type="submit" value="Submit" class="bg-pink-300 m-auto  rounded-tl rounded-tr rounded-bl rounded-br p-1.5 hover:underline">
+
+        </form>
+
+    </div>
+
+<?php require 'views/partials/footer.php'; ?>

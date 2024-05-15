@@ -1,7 +1,14 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./**/*.html', './**/*.js'],
+  purge: ['./**/*.html', './**/*.php'], // Include paths to your PHP files
+  darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      fontFamily: {
+        'poetsen': ['"Poetsen One"', 'sans-serif'],
+      },
+    },
+  },
+  variants: {
     extend: {},
   },
   plugins: [],
