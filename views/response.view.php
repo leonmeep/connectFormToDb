@@ -9,7 +9,7 @@ require 'views/partials/header.php';
     </div>
 
     <div class="flex justify-center mt-5">
-        <p class="flex tracking-wider ">Your comment has been saved</p>
+        <p class="flex tracking-wider text-green-400 ">Your comment has been saved</p>
     </div>
 
     <div class="flex justify-center mt-5">
