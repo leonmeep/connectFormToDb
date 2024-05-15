@@ -27,7 +27,7 @@ require 'views/partials/header.php';
             </div>
 
             <br>
-            <input type="submit" value="Submit" class="bg-pink-300 m-auto  rounded-tl rounded-tr rounded-bl rounded-br p-1.5 hover:text-2xl">
+            <input type="submit" value="Submit" class="bg-pink-300 m-auto  rounded-tl rounded-tr rounded-bl rounded-br p-1.5 hover:underline">
 
         </form>
 
