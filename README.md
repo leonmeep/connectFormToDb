@@ -1,4 +1,4 @@
-# connectFormToDb
+# Simple-Comments-App
 
 #tailwindcss #php #html #mysql #database #comments
 
