@@ -9,11 +9,11 @@ require 'views/partials/header.php';
     </div>
 
     <div class="flex justify-center mt-5">
-        <p class="flex ">Your comment has been saved</p>
+        <p class="flex tracking-wider ">Your comment has been saved</p>
     </div>
 
     <div class="flex justify-center mt-5">
-        <a href="/" class="flex text-pink-400 hover:underline">Back to the comments form</a>
+        <a href="/" class="flex text-pink-400 p-3 hover:underline">Return to the comments form</a>
     </div>
 
 <?php require 'views/partials/footer.php'; ?>
