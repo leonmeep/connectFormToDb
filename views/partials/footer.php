@@ -2,7 +2,7 @@
 
 <footer>
     <div class="flex justify-center mt-48 text-green-400 space-x-2">
-        <p>© 2024 | Leon Birch Development | All rights reserved</p>
+        <p>© 2024 | Leon Birch Software Development | All rights reserved</p>
     </div>
 
     <div class="flex justify-center mt-2.5 space-x-2">
