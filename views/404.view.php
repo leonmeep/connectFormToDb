@@ -7,7 +7,7 @@ require 'views/partials/header.php';
 
 
 <div class="flex justify-center p-3 pr-3 pb-3 pl-3 pt-3 m-3.5 ml-3.5 mr-3.5 mt-3.5 mb-3.5">
-    <img src="/img/404.jpg" alt="404" class="w-1/2 h-1/2" />
+    <img src="img/404.jpg" alt="404" class="w-1/2 h-1/2" />
 </div>
 
 
