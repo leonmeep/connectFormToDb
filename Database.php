@@ -14,18 +14,28 @@ class Database
         ]);
     }
 
-    public function query(): void
+    public function nameQuery(): void
     {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $name = $_POST['name'] ?? '';
-            $comment = $_POST['comment'] ?? '';
 
-            $statement = $this->connection->prepare('INSERT INTO jottings (name, comment) VALUES (:name, :comment)');
+
+            $statement = $this->connection->prepare('INSERT INTO jottings (name) VALUES (:name)');
             $statement->bindParam(':name', $name);
-            $statement->bindParam(':comment', $comment);
+
 
             $statement->execute();
 
+        }
+    }
+
+    public function commentQuery(): void
+    {
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            $comment = $_POST['comment'] ?? '';
+
+            $statement = $this->connection->prepare('INSERT INTO jottings (comment) VALUES (:comment)');
+            $statement->bindParam(':comment', $comment);
         }
     }
 }
