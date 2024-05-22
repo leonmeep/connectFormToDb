@@ -1,5 +1,4 @@
 <?php
-
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 
@@ -9,7 +8,7 @@ $routes =
 '/response' => 'controllers/response.php',
 ];
 
-
+// Route to controller
 function routeToController($uri, $routes): void
 {
 if (array_key_exists($uri, $routes)) {
@@ -19,6 +18,7 @@ abort();
 }
 }
 
+// Abort function
 function abort($code = 404)
 {
 http_response_code($code);

@@ -1,5 +1,6 @@
 <?php
 
+// <!-- Database configuration
 return  [
 
     'database' => [

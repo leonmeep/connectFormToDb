@@ -1,6 +1,6 @@
 <?php
 
-
+// <!-- Database configuration
 class Database
 {
     public PDO $connection;
@@ -14,6 +14,7 @@ class Database
         ]);
     }
 
+    // Query to post a comment
     public function query(): void
     {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {

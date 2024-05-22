@@ -1,6 +1,6 @@
 <?php
 
-
+// Function to dump and die
 function dd($value)
 {
     echo '<pre>';
