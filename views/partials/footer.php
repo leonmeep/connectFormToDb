@@ -3,7 +3,7 @@
         <p>© 2024 | Leon Birch Software Development | All rights reserved</p>
     </div>
 
-    <-- Social media links -->
+
     <div class="flex justify-center mt-2.5 space-x-2">
 
         <a href="https://github.com/leonmeep/connectFormToDb" target="_blank"><img src="/img/github-mark.png"
